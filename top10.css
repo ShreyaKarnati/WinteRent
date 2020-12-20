@@ -1,6 +1,6 @@
 
 body {
-  background-image: url('assets/img/blog/3.png');
+  background-image: url('assets/img/blog/ski3.png');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
@@ -18,6 +18,6 @@ body {
 
 .text {
   font-size: 20px;
-  color: #4d81ca);
+  color: #4d81ca;
   align-items: center;
 }

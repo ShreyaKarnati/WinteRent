@@ -70,7 +70,7 @@
 
       #map {
         width: 100%;
-        height: 820px;
+        height: 858px;
         aglin: center;
         text-align: center;
         background-color: grey;
@@ -81,8 +81,6 @@
 
   <main id="main">
 
-  <section id='back'>
-
   <!--Create Map-->
   <div id="map"> </div>
   
@@ -90,19 +88,18 @@
     
     function initMap() {
       
-      var map = new google.maps.Map(document.getElementById('map'), {center:{lat:47.6172, lng:-122.1536}, zoom:12.5
+      var map = new google.maps.Map(document.getElementById('map'), {center:{lat:47.60562337054122, lng:-122.18345817795855}, zoom:12.5
       });
 
-      addMarker({coords:{lat:47.619548, lng:-122.131121}, content:'<a href = "https://www.thefrenchbakery.com/" target="_blank"> The French Bakery </a>'})
-      addMarker({coords:{lat:47.632066, lng:-122.136395},content:'<a href = "https://teapotvegetarianhouse.com/" target="_blank"> Teapot Vegetarian House </a>'})
-      addMarker({coords:{lat:47.667268, lng:-122.106128}, content:'<a href = "https://www.blazingbagels.com/" target="_blank"> Blazing Bagels </a>'})
-      addMarker({coords:{lat:47.617380, lng:-122.127292},content:'<a href = "https://palacebbq.com/" target="_blank"> Palace Korean Bar & Grill </a>'})
-      addMarker({coords:{lat:47.581438, lng:-122.139006}, content:"<a href = 'https://liljonrestaurant.com/about.html' target='_blank'> Lil' John Restaurant & Lounge </a>"})
-      addMarker({coords:{lat:47.612403, lng:-122.196497}, content:'<a href = "https://seastarrestaurant.com/" target="_blank"> Seastar Restaurant & Raw Bar </a>'})
-      addMarker({coords:{lat: 47.620829, lng:-122.130049}, content:'<a href = "https://firenzerestaurantbellevue.com/" target="_blank"> Firenze </a>'})
-      addMarker({coords:{lat: 47.617570, lng:-122.127876}, content:'<a href = "https://www.doughzonedumplinghouse.com/" target="_blank"> Dough Zone Dumpling House </a>'})
-      addMarker({coords:{lat:47.620349, lng:-122.180540},content:'<a href = "https://www.thecrabpotseattle.com/" target="_blank"> The Crab Pot Bellevue </a>'})
-      addMarker({coords:{lat:47.628150, lng:-122.135946}, content:'<a href = "https://www.pagliacci.com/" target="_blank"> Pagliacci Pizza </a>'})
+      addMarker({coords:{lat:47.59506400567715, lng:-122.1891567363917}, content:'<a href = "https://www.sturtevants.com/" target="_blank"> Sturtevant\'s Ski Mart </a>'})
+      addMarker({coords:{lat:47.56797074539498, lng:-122.17223918527134},content:'<a href = "https://www.newportskiswap.com/" target="_blank"> Newport Ski Swap </a>'})
+      addMarker({coords:{lat:47.62342737600128, lng:-122.16073577401899}, content:'<a href = "http://www.centerlineski.com/" target="_blank"> Centerline Ski </a>'})
+      addMarker({coords:{lat:47.613546696763926, lng:-122.18474814385931},content:'<a href = "https://www.rei.com/" target="_blank"> REI </a>'})
+      addMarker({coords:{lat:47.61517628471462, lng:-122.20208034714803}, content:"<a href = 'https://www.thenorthface.com/' target='_blank'> The North Face </a>"})
+      addMarker({coords:{lat:47.61588051887124, lng:-122.20457744095889}, content:'<a href = "https://www.eddiebauer.com/" target="_blank"> Eddie Bauer </a>'})
+      addMarker({coords:{lat: 47.61627428403215, lng:-122.20469019333524}, content:'<a href = "https://www.escapeoutdoors.com/" target="_blank"> Escape Outdoors </a>'})
+      addMarker({coords:{lat: 47.627158132369956, lng:-122.16766218804129}, content:'<a href = "https://www.worldcupsc.com/" target="_blank"> World Cup Service Center </a>'})
+  
 
       
       function addMarker(props) {
@@ -122,16 +119,16 @@
   </script>
 
   <script defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyX4kCCj6Z5IOZDac3NUJni1XIJ3REBiA&callback=initMap"
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIBBB4qG-lCLpd6SqE4_Odw9ri-GPdBEo&callback=initMap"
 
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyX4kCCj6Z5IOZDac3NUJni1XIJ3REBiA&libraries=places">
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBIBBB4qG-lCLpd6SqE4_Odw9ri-GPdBEo&libraries=places">
   </script>
 
 </section>
     
   </main><!-- End #main -->
 
-   <!-- ======= Footer ======= -->
+  <!-- ======= Footer ======= -->
   <footer id="footer">
     <div class="footer-top">
       <div class="container">
@@ -153,11 +150,11 @@
           <div class="col-lg-2 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Winter Equipment Brands</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#">What Makes a Good Ski/Snowboard?</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#">Important Information</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="index.html#">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#steps">Winter Equipment Brands</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#about">What Makes a Good Ski/Snowboard?</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#services">Important Information</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#faq">About Us</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="index.html#testimonials">Testimonials</a></li>
             </ul>
           </div>
 
@@ -180,11 +177,7 @@
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
           </div>
-
-        </div>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+        </footer><!-- End Footer -->
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
